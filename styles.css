@@ -1,3 +1,96 @@
+/* ************************* */
+/* --------- RESET --------- */
+/* ************************* */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ************************* */
+/* -------- GENERAL -------- */
+/* ************************* */
+
+/* --------- Colors -------- */
+
+/*
+Body Background
+#f0f0f0
+*/
+
+/*
+Text
+#333
+*/
+
+/* 
+Scheme
+#056CF2
+#0597F2
+#05AFF2
+#56A69E
+#0D0D0D
+*/
+
+/* ------- Typography ------ */
+
+/* General */
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: red;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Links */
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  font-weight: 700;
+}
+
+/* ************************* */
+/* --------- HEADER -------- */
+/* ************************* */
+
+/* ------ Main Nav Bar ----- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.6rem;
+}
+
+.header-logo {
+  max-width: 25rem;
+  height: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-nav-item a:link,
+.header-nav-item a:visited {
+  margin: 1.6rem 3.2rem;
+}
+
+.header-nav-item a:hover,
+.header-nav-item a:active {
+  color: #056cf2;
 }
